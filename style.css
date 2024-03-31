@@ -1,0 +1,148 @@
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  align-items: center;
+  max-height: 100vh;
+  color: #40514e;
+  text-align: center;
+}
+
+/* TOP CONTAINER */
+.top-container{
+  background-color: #E4F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-container h1{
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px 0 auto 0;
+}
+
+.top-container h2{
+  color: #66bfbf;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+/* MIDDLE CONTAINER */
+
+.middle-container{
+  margin: 100px 0;
+  display: block;
+}
+/* PROFILE */
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.profile-img{
+  width: 180px;
+  height: 180px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.chilli-img{
+  width: 125px;
+  height: 120px;
+}
+
+.hacker{
+  width: 125px;
+  height: 120px;
+}
+
+.btn{
+  background-color:#11cdd4;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/* BOTTOM CONTAINER */
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+h2{
+  color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+a{
+  color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+p{
+  line-height: 2;
+  display: block;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
